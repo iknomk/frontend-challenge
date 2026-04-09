@@ -8,7 +8,7 @@ export default function AllCats() {
 
   const fetchCats = async () => {
     const res = await fetch(
-      "/api/v1/images/search?limit=10",
+      'https://api.thecatapi.com/v1/images/search?limit=10',
       {
         headers: {
           "x-api-key": API_KEY,

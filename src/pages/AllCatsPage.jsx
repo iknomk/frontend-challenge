@@ -11,7 +11,7 @@ export default function AllCats() {
       'https://api.thecatapi.com/v1/images/search?limit=10',
       {
         headers: {
-          "x-api-key": API_KEY,
+          'x-api-key': API_KEY,
         },
       }
     );
